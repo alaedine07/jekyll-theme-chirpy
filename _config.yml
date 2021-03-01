@@ -11,11 +11,11 @@ baseurl: ''
 lang: en-US
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Africa/Tunis
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: alaedine                         # the main title
 
 tagline: A text-focused Jekyll theme   # it will display as the sub-title
 
@@ -30,7 +30,7 @@ url: ''
 author: your_full_name                  # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: alaedine07             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: icon.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
