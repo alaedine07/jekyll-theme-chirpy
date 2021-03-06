@@ -17,7 +17,7 @@ timezone: Africa/Tunis
 # --------------------------
 title: alaedine                         # the main title
 
-tagline: just another computer guy   # it will display as the sub-title
+tagline: just another IT guy   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -32,8 +32,8 @@ author: alaedine                  # change to your full name
 github:
   username: alaedine07             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+linkedin:
+  username: boufaden-alaedine-7b6b03205            # change to your twitter username
 
 social:
   name: alaedine                  # it will shows as the copyright owner in Footer
@@ -44,7 +44,7 @@ social:
     - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
