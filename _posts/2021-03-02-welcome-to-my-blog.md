@@ -7,33 +7,30 @@ pin: true
 
 Welcome to yet another blog on the internet.
 
-## Why did I decide to start this blog
+## Why did I decide to start my own blog
 
-It all began when I came across [this blog post][after-nerd]. The author, Karim, went over a few points that really resonated with me.
+why would a programmer or any IT person make a blog and spend time writing instead of investing in another thing.
 
-### Improve your technical skills
+### Improve my technical writing skills
 
 I hate writing. I'm not good at it. I write code. I am able to take algorithms and use a programming language to describe what it is suppose to do. I find that skill does not directly translate into taking thoughts and ideas and presenting them in coherent sentences.
 
+A lot of programmer are really good at writing code, but not at explaining it in a report, a documentation or peers.
+
 How does one become better at writing? As with everything else, it takes practice. I know I need to improve my writing skills, so this blog will be my practice ground.
 
-Karim also talks about
+### Online presence
 
-> the old Latin principle “The best way to learn something is to teach it”.
+As an IT person I need to have a good online presence that will increase my chance of getting hired. It's some kind of marketing or promoting.
+Many people are active on social plateforms like twitter, facebook, reedit ... but i just decided to make my own place. I think a github account, a blog and a linkedin profile are enough for me.  
 
-Although a quick DuckDuckGo search did not return any results about any old Latin principles, it did return articles about [The Feynman Technique][feynman] and [The Protégé Effect][protege]. The general idea being that, teaching something requires you to have a deep and fundamental understanding of said topic.
+### Richard Feynman
 
-In order for me to say that I "learned" something new, I will try my best to explain how it works in a blog post and that process will solidify my understanding of that topic.
+Many people think that learning is being able to remember every single line of a 600 page book, every word from a 3 hours lecture or every minute from a 10hour youtube playlist. Well some lucky people have this super power but i'm not one of them. so i decided to follow Richard Feynman technique. which I resume in **Pretend to teach it to a child** that's why I'm posting what i learn and try to explain it as simple as possible. Pretending that the reader is just a kid who stampled across my blog.
+[Feynman technique explained](https://fs.blog/2021/02/feynman-learning-technique/).   
 
-### Market yourself
+## Why using jekyll
 
-If done right, I belive this blog is a great way to market myself to potential employers. It shows initiative, leadership, my technical and writing skills.
-
-### Learn how to write and present your ideas
-
-This is an extension of improving on my writing skills. Being able to present your ideas in writing is a very valuable skill to have.
-
-## Personal Motivation
-
-One of my biggest hesitations is that eventually this will became a chore. Eventually I will run out of ideas to write about, and it becomes easier to occupy my mind with another hobby. In order to combat that, I decided to look at this blog from a different perspective. Forget about trying to decide what topics I should write about, I should use this blog as a record of all the things I've learned as a software engineer. Everytime I learn something new at work, write a blog post about it. Everytime I solve some weird problem where the answer was from StackOverflow, write a post about it.
+When i first wanted to start blogging I choosed medium. but it didn't take long to decide that i really should make something that I control.
+after googling i found jekyll which is a static site generator based on ruby. it's open source, well maintained by a great community, customizable, have tons of both free and paid themes and also you can deploy it with github pages. it was PERFECT !!!
 

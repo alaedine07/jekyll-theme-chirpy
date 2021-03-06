@@ -17,7 +17,7 @@ timezone: Africa/Tunis
 # --------------------------
 title: alaedine                         # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: just another computer guy   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
-author: your_full_name                  # change to your full name
+author: alaedine                  # change to your full name
 
 github:
   username: alaedine07             # change to your github username
@@ -36,7 +36,7 @@ twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
+  name: alaedine                  # it will shows as the copyright owner in Footer
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
