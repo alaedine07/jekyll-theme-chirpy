@@ -20,9 +20,7 @@ title: alaedine                         # the main title
 tagline: just another IT guy   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+ My Blog created with jekyll ssgn and chirpy theme
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
