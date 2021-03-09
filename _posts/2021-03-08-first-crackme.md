@@ -160,7 +160,7 @@ first i made the keygen only print the valid string and passed it as an argument
 we don't want to pass litearlly "./a.out" but we need the result of ```./a.out``` so let's wrap the argument inside ```$()``` so it get executed before the keygen file . this means that the argument of ```./101-crackme``` will be the result of ```./a.out``` which is the valid string printed.
 
 Holééé the crackme if fineally solved it, was great challenge to get an introduction to reversing, assembly, gdb and thinking out of the box
-
+I hope you enjoyed this Post and learned new things.
 
 ## Resources
 
