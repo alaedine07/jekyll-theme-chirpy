@@ -174,7 +174,7 @@ I hope you enjoyed this Post and learned new things.
 
 [reversing a simple crackme with pen and paper by liveoverflow](https://www.youtube.com/watch?v=VroEiMOJPm8&ab_channel=LiveOverflow)
 
-And of course the mighty [google](www.google.com)
+And of course the mighty google
 
 
 
