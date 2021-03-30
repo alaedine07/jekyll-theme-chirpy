@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Solve your first Crackme"
+title: "linux directories explained"
 categories: explained
-tags: [under the hood, low level, C, programming, linux, security]
+tags: [under the hood, linux]
 ---
 
 Hi everyone. this will be a quick tour in Labyrinth of linux directories
