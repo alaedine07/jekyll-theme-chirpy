@@ -19,6 +19,10 @@ this contains binaries and executables that must be present when the system is m
 
 same as definition of /bin but the binaries can only be used by root user or a high privilege user(sysadmin) we can find programs heres like for system maintenance purpose.
 
+# /usr/share - shared data
+
+It contains all the shared data used by the programs from /usr/bin, All default configuration files, themes, icons, wallpapers, sound files are stored here, one more folder I would like to mention here is the /usr/share/doc folder, where you can find the documentation files for programs installed on your system.
+
 # /lib - Essential Shared Libraries
 
 shared libraries used by the binaries when compiling. we can find the famous libc here, I already made a post about libraries
@@ -66,9 +70,19 @@ Historically speaking, the /mnt directory is where system administrators mounted
 
 /opt is a directory for installing unbundled packages (i.e. packages not part of the Operating System distribution, but provided by an independent source), each one in its own subdirectory. They are already built whole packages provided by an independent third party software distributor.
 
+# /lost+found – Recovered Files
 
+You will have this directory if you use the ext4 file system. Most of the modern Linux distros use ext4, so most likely you have this folder. This is a file system specific folder that is used for data recovery in case of file corruption. Unless something bad has happened, this folder should be empty on your system. This /lost+found folder is produced on every separate partition. So, if your /home folder is on a separate partition, you should have this /lost+found folder in your home directory too.
 
+# /proc – Kernel Files
 
+This is a virtual file-system maintained by the Linux kernel. Usually, you do not touch anything in this folder. It is needed only for the kernel to run different processes.
+The first thing that you will notice is that there are some familiar sounding files, and then a whole bunch of numbered directories. The numbered directories represent processes, better known as PIDs, and within them, a command that occupies them. The files contain system information such as memory (meminfo), CPU information (cpuinfo), and available filesystems. we will dive in this directory in another 
+blog post.
+
+# /var – Variable Files
+
+The /var contains files that are of variable content, so their content is not static and it constantly changes. For example, this is where the log files are stored. If you don’t know, a log file is a file that records all events happening in your system while it is running. These log files often help to find out if something is not working correctly in your system.
 
 
 
