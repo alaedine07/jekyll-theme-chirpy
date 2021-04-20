@@ -84,6 +84,11 @@ blog post.
 
 The /var contains files that are of variable content, so their content is not static and it constantly changes. For example, this is where the log files are stored. If you don’t know, a log file is a file that records all events happening in your system while it is running. These log files often help to find out if something is not working correctly in your system.
 
+if you want to be display every single file or directory in your system you can go to the root(not /root) directory and type the command
+```tree```. i don't think it will take you long before pressing ctrl+c.
+
+I hope you learned something from this post or triggered more curiosity about exploring linux :wink:  
+
 
 
 
