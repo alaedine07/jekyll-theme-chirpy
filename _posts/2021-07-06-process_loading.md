@@ -9,7 +9,7 @@ Hello friends, after finishing the simple shell project I decided to share with 
 
 ## Overview
 
-This blog post will explain the steps of loading and executing a process in linux
+This blog post will explain how linux kernel loads a process into memory
 
 ## What is a process
 
@@ -73,7 +73,7 @@ the system call fork creates an exact copy of the calling process so we can have
 
 We already mentioned that the system call ```execve``` will try to load this new process. but before that the kernel will check if the program is executable.
 
-### What to load
+### What and how to load
 
 to find out what to load the kernel will read the beginning of the file and make decisions:
 
@@ -122,6 +122,7 @@ This means that if the files has the magic bytes 03f30d0a at offset 0 the       
 -   kernel code in the "upper half" of memory (above 0x8000000000000000 on 64-bit architectures), inaccessible to the process
 
   here is a mapping of /bin/cat on my system when executed
+  
   ![](/assets/img/process-loading/mapping.png)  
 
 #### Sum it up.
