@@ -141,4 +141,6 @@ So the dynamic linker loads the needed libraries and performs relocations (eithe
 
 Finally control is transferred to the address given by the symbol `_start` in the binary. Normally some gcc/glibc startup code lives there, which in the end calls main()
 
-I hope you learned new concepts with this article and maybe now you want to explore more hidden linux magic :wink: 
+This was a quick beginner friendly resume of how a process is loaded in linux. There a more hidden magic performed by the kernel during this process. I recommend this [post](https://0xax.gitbooks.io/linux-insides/content/SysCall/linux-syscall-4.html) to get a deeper look at code level
+
+I hope you learned new concepts with this article and triggered your curiosity to explore more
