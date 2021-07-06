@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "How linux loads a process"
+title: "Process loading in linux"
 categories: explained
 tags: [under the hood,linux]
 ---
-
-Hello friends, after finishing the simple shell project I decided to share with you what knowledge I accumulated when reading all the man pages and googling different topics. I hope this post will be valuable for you. enjoy !! :)
 
 ## Overview
 
@@ -79,7 +77,7 @@ to find out what to load the kernel will read the beginning of the file and make
 
 **1.** If the file starts with **#!**, the kernel extracts the interpreter from the rest of that line and executes this interpreter with the original file as an argument. so if you have a shebang line like ```#!/bin/bash``` the kernel will use ```/bin/bash``` to execute your program
 
-    write a small script and use ```#!/bin/echo``` as your shebang line then executes it ...
+write a small script and use ```#!/bin/echo``` as your shebang line then executes it ...
 
 **2.** If the file matches a format in **/proc/sys/fs/binfmt_misc**, the kernel executes the interpreter specified for that format with the original file as an argument. **binfmt_misc** has a set of configuration for different files type. when using ```ls /proc/sys/fs/binfmt_misc``` i have and output of ```jar  llvm-10-runtime.binfmt  python2.7  python3.8  register  status``` I can distinguish that i have the python and java interpreters. using ```cat python2.7``` i get 
 
@@ -91,7 +89,7 @@ to find out what to load the kernel will read the beginning of the file and make
     magic 03f30d0a
     ```
 
-This means that if the files has the magic bytes 03f30d0a at offset 0 the       Kernel will use python2.7 to run it.
+This means that if the files has the magic bytes 03f30d0a at offset 0 the Kernel will use python2.7 to run it.
 
 ### Loading a dynamically linked ELF
 
