@@ -7,18 +7,21 @@ tags: [under the hood,linux]
 
 ## Overview
 
-This blog post will explain how linux kernel loads a process into memory
+In this article we will explain how linux kernel loads a process into memory
 
 ## What is a process
 
-Every one who uses linux will eventually hear the word "process" but what is a really a process. Every program on your computer when it starts
-running it runs as a process. Your browser,terminal,editor... are all considered processes:
+Everyone who uses linux will eventually hear the word "process" but what is a really a process?? 
+
+Every program on your computer when it starts running it runs as a process. Your browser,terminal,editor... are all considered processes.
+
+A process is composed of:
 
 ### task_struct: 
 
-So that Linux can manage the processes in the system, each process is represented by a  task_struct  data structure (task and process are terms which Linux uses interchangeably). The  task  vector is an array of pointers to every  task_struct  data structure in the system.
+So that Linux can manage the processes in the system, each process is represented by a  task_struct  data structure (task and process are terms which Linux uses interchangeably). The  task vector is an array of pointers to every task_struct data structure in the system.
 
-This means that the maximum number of processes in the system is limited by the size of the  task  vector; by default it has 512 entries. As processes are created, a new  task_struct  is allocated from system memory and added into the  task  vector. To make it easy to find, the current, running, process is pointed to by the  current  pointer.
+This means that the maximum number of processes in the system is limited by the size of the  task vector. By default it has 512 entries. As processes are created, a new  task_struct  is allocated from system memory and added into the  task  vector. To make it easy to find, the current, running, process is pointed to by the  current  pointer.
 
 Although the task_struct  data structure is quite large and complex, but its fields can be divided into a number of functional areas:
 
