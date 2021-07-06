@@ -88,9 +88,3 @@ if you want to be display every single file or directory in your system you can 
 ```tree```. i don't think it will take you long before pressing ctrl+c.
 
 I hope you learned something from this post or triggered more curiosity about exploring linux :wink:  
-
-
-
-
-
-
