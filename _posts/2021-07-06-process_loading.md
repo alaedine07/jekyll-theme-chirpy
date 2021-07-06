@@ -123,7 +123,7 @@ This means that if the files has the magic bytes 03f30d0a at offset 0 the       
 
   here is a mapping of /bin/cat on my system when executed
   
-  ![](/assets/img/process-loading/mapping.png)  
+![](/assets/img/process-loading/mapping.png)  
 
 #### Sum it up.
 
